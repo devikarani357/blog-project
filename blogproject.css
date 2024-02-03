@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-container{
+    background-color: rgba(137, 43, 226, 0.801);
+}
+.container{
+    width:95vw;
+    margin:auto;
+}
+.header-container h2{
+    /*display:flex;
+    justify-content: center;
+    margin-top: 11px;*/
+    text-align: center;
+}
+.para-container p{
+    text-align: center;
+}
+/*Here we have to use the grid like this */
+.main-container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 2.5rem;
+}
+.card-container{
+    border:1px solid black;
+     height:280px;
+     background-color: rgba(255, 228, 196, 0.596);
+}
+.image-container{
+    max-width: 100vw;
+}
+.card-head h2{
+    text-align: center;
+}
+.card-para p{
+    text-align: center;
+}
+.author-info h3{
+    text-align:right;
+}
+ button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 80px;
+}
+
